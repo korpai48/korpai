@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประเพณีท้องถิ่นจังหวัดกระบี่</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9ff; /* สีพื้นหลังอ่อน */
+        }
+        header {
+            background-color: #2196F3; /* สีฟ้า */
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #2196F3;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #2196F3;
+            text-align: center;
+        }
+        .tradition {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .tradition img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .tradition h3 {
+            margin: 1rem 0 0.5rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ประเพณีท้องถิ่นจังหวัดกระบี่</h1>
+        <nav>
+            <a href="index.html">หน้าหลัก</a>
+            <a href="attractions.html">สถานที่ท่องเที่ยว</a>
+            <a href="traditions.html">ประเพณี</a>
+            <a href="food.html">อาหาร</a>
+            <a href="accommodation.html">ที่พัก</a>
+            <a href="member.html">สมาชิกผู้จัดทำ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>ประเพณีสำคัญของจังหวัดกระบี่</h2>
+
+        <div class="tradition">
+            <h3>ประเพณีลอยเรือพนมพระ</h3>
+            <img src="https://www.shorturl.asia/dN8be" alt="ประเพณีลอยเรือพนมพระ">
+            <p>ประเพณีเก่าแก่ที่จัดขึ้นเพื่อสักการะพระพุทธศาสนาและขอพรให้เกิดความเป็นสิริมงคลแก่ชาวบ้าน</p>
+        </div>
+
+        <div class="tradition">
+            <h3>ประเพณีสารทเดือนสิบ</h3>
+            <img src="https://www.shorturl.asia/5CbLE" alt="ประเพณีสารทเดือนสิบ">
+            <p>ประเพณีทำบุญอุทิศส่วนกุศลให้กับบรรพบุรุษ และถือเป็นงานรวมญาติที่สำคัญในท้องถิ่น</p>
+        </div>
+
+        <div class="tradition">
+            <h3>ประเพณีชักพระ</h3>
+            <img src="https://www.shorturl.asia/Cj1uN" alt="ประเพณีชักพระ">
+            <p>พิธีแห่เรือพระที่งดงามในช่วงออกพรรษา โดยจะมีขบวนแห่เรือประดับประดาอย่างวิจิตรงดงาม</p>
+        </div>
+    </div>
+</body>
+</html>

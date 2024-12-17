@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อาหารท้องถิ่นจังหวัดกระบี่</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9ff; /* สีพื้นหลังอ่อน */
+        }
+        header {
+            background-color: #2196F3; /* สีฟ้า */
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #2196F3;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #2196F3;
+            text-align: center;
+        }
+        .food-item {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .food-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .food-item h3 {
+            margin: 1rem 0 0.5rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>อาหารท้องถิ่นจังหวัดกระบี่</h1>
+        <nav>
+            <a href="index.html">หน้าหลัก</a>
+            <a href="attractions.html">สถานที่ท่องเที่ยว</a>
+            <a href="traditions.html">ประเพณี</a>
+            <a href="food.html">อาหาร</a>
+            <a href="accommodation.html">ที่พัก</a>
+            <a href="member.html">สมาชิกผู้จัดทำ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>อาหารขึ้นชื่อของจังหวัดกระบี่</h2>
+
+        <div class="food-item">
+            <h3>ขนมจีนน้ำยาใต้</h3>
+            <img src="https://www.shorturl.asia/kTIQi" alt="ขนมจีนน้ำยาใต้">
+            <p>เมนูเส้นขนมจีนราดด้วยน้ำยาปักษ์ใต้รสเข้มข้น จัดจ้าน และกลมกล่อม</p>
+        </div>
+
+        <div class="food-item">
+            <h3>แกงส้มปลากะพง</h3>
+            <img src="https://www.shorturl.asia/2sQgt" alt="แกงส้มปลากะพง">
+            <p>แกงส้มรสเปรี้ยวเผ็ดใส่ปลากะพงสดและผักพื้นบ้าน ทานคู่กับข้าวสวยร้อน ๆ</p>
+        </div>
+
+        <div class="food-item">
+            <h3>กุ้งทอดกระเทียม</h3>
+            <img src="https://www.shorturl.asia/eCQOl" alt="กุ้งทอดกระเทียม">
+            <p>กุ้งสดตัวใหญ่ทอดกับกระเทียมกรอบ หอมอร่อย เหมาะเป็นเมนูหลักหรือทานเล่น</p>
+        </div>
+    </div>
+</body>
+</html>

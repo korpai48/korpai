@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สถานที่ท่องเที่ยวในจังหวัดกระบี่</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9ff; /* สีพื้นหลังอ่อน */
+        }
+        header {
+            background-color: #2196F3; /* สีฟ้า */
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            background-color: white;
+            color: #2196F3;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #2196F3;
+            text-align: center;
+        }
+        .place {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .place img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .place h3 {
+            margin: 1rem 0 0.5rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>สถานที่ท่องเที่ยวในจังหวัดกระบี่</h1>
+        <nav>
+            <a href="index.html">หน้าหลัก</a>
+            <a href="attractions.html">สถานที่ท่องเที่ยว</a>
+            <a href="traditions.html">ประเพณี</a>
+            <a href="food.html">อาหาร</a>
+            <a href="accommodation.html">ที่พัก</a>
+            <a href="member.html">สมาชิกผู้จัดทำ</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>แหล่งท่องเที่ยวแนะนำ</h2>
+
+        <div class="place">
+            <h3>หาดไร่เลย์</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Railay_Beach_Thailand.jpg" alt="หาดไร่เลย์">
+            <p>หาดไร่เลย์เป็นหาดที่มีชื่อเสียงระดับโลก ด้วยหาดทรายสีขาว น้ำทะเลใส และภูเขาหินปูนที่เหมาะสำหรับการปีนผา</p>
+        </div>
+
+        <div class="place">
+            <h3>เกาะพีพี</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Phi_Phi_Islands.jpg" alt="เกาะพีพี">
+            <p>หมู่เกาะพีพีเป็นสถานที่ท่องเที่ยวชื่อดังของกระบี่ มีน้ำทะเลสีฟ้าครามเหมาะแก่การดำน้ำดูปะการัง</p>
+        </div>
+
+        <div class="place">
+            <h3>วัดถ้ำเสือ</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Tiger_Cave_Temple_Krabi.jpg" alt="วัดถ้ำเสือ">
+            <p>วัดถ้ำเสือเป็นวัดที่มีชื่อเสียง มีจุดชมวิวที่สวยงามบนยอดเขาและบันไดขึ้นถึง 1,237 ขั้น</p>
+        </div>
+    </div>
+</body>
+</html>
